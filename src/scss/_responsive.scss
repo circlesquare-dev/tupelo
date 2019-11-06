@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1200px) {}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1210px;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 1220px) {
+    .container {
+        max-width: 100%;
+        padding: 0 27px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        // padding: 0 15px;
+        padding: 0 17px;
+    }
+}

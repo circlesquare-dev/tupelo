@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" width="10" height="16">
+	<defs>
+		<image width="10" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAAh0lEQVQoU43SvRGAIAwF4JdNvMMlXMEJtMLWhazFRldwA5dglnj4i0LQtHyXS14gJMrqoQM4U0aXJLkDte6dCXMU+mhvxFMAY0iZpn5ACbmeF0yhC36hDf5BB+xHgKo7Jp7c8O/Ythmt/sbeMmn8ikfGkcDjWDhhiBOf4sYMLCI802BQlhtdrN5CX0+ISQIyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="header">
+		<use id="up-arrow-key копія copy" href="#img1" x="0" y="0" />
+	</g>
+</svg>

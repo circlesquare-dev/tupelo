@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/FuturaBook.ttf'), format('ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/FuturaBold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/futuraMedium.ttf'), format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/FuturaBookRegular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/futuraMedium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url('../fonts/CrimsonText-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// 
+@font-face {
+  font-family: "FuturaBT";
+  src: url('../fonts/FuturaBoldBt.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBT";
+  src: url('../fonts/futuraMediumBt.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaBT";
+  src: url('../fonts/futuraMediumCondensedBt.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+// 
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url('../fonts/CrimsonText-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url('../fonts/CrimsonText-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star-o:before {
+  content: "\e90c";
+}
+.icon-star-half:before {
+  content: "\e90d";
+}
+.icon-star:before {
+  content: "\e90e";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-bars-solid:before {
+  content: "\e90b";
+}
+.icon-right-arrow:before {
+  content: "\e909";
+}
+.icon-menu:before {
+  content: "\e90a";
+}
+.icon-btn-left:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-btn-right:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-be:before {
+  content: "\e900";
+}
+.icon-c:before {
+  content: "\e901";
+}
+.icon-dou:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-linkedin:before {
+  content: "\e905";
+}
+
