@@ -9775,11 +9775,38 @@ input {
   .section-10 .contact-1 .line {
     margin-top: 60px; }
 
+.section-10 .contact-2 .contact-form .field-block .caption {
+  margin-bottom: 9px;
+  color: #212E78;
+  font-size: 17px;
+  line-height: 159%;
+  font-weight: 500;
+  letter-spacing: -0.3px; }
+
+.section-10 .contact-2 .contact-form .field-block .name {
+  color: #212e78;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 700; }
+
+.section-10 .contact-2 .contact-form .field-block input,
+.section-10 .contact-2 .contact-form .field-block textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  display: block;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  vertical-align: middle; }
+
 .section-10 .contact-2 .contact-form .field-block input {
-  width: 100%; }
+  height: 45px; }
 
 .section-10 .contact-2 .contact-form .field-block textarea {
-  width: 100%; }
+  min-height: 101px; }
 
 .section-12 {
   text-align: center; }
