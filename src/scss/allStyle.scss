@@ -4,4 +4,10 @@
 @import "./variables";
 @import "./global";
 @import "./styles";
+
+// pages styles start
+@import "./pages/blog";
+@import "./pages/careers";
+// pages styles end
+
 @import "./responsive";

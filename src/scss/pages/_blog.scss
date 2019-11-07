@@ -1,0 +1,99 @@
+.blog {
+  &_list {
+    padding: 0;
+    margin: 40px 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    @media(max-width: 767px) {
+      margin: 0;
+    }
+    li {
+      flex: 0 1 33%;
+      max-width: 33%;
+      margin-top: 100px;
+      padding: 0 10px;
+      @media (max-width: 1024px) {
+        flex: 0 1 50%;
+        max-width: 50%;
+      }
+      @media (max-width: 768px) {
+        flex: 0 1 100%;
+        max-width: 100%;
+      }
+      &:first-child {
+        @media(max-width: 767px) {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  &_btn {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+.bl {
+  &_title {
+    &, & a {
+      font-family: 'Futura';
+      font-weight: bold;
+      color: $blue;
+      font-size: 30px;
+      line-height: 40px;
+      text-decoration: none;
+      transition: opacity 300ms ease;
+    }
+    a {
+      display: inline-block;
+      &:hover {
+        opacity: 0.8
+      }
+    }
+  }
+  &_info {
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: "FuturaBT";
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 27px;
+      color: $gray;
+      &:after {
+        content: '';
+        width: 2px;
+        height: 2px;
+        border-radius: 100%;
+        background: $gray;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 27px;
+        margin: 5px;
+      }
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  &_bold {
+    display: inline-block;
+    font-family: Futura, sans-serif;
+    color: #aeb2c7;
+    font-size: 11px;
+    line-height: 245%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 300ms ease;
+    &:hover {
+      color: $blue;
+    }
+  }
+}

@@ -34,8 +34,9 @@
             </nav>
         </div>
     </header>
-    <div id="content">
+    <div id="content" class="contact-page">
         <section class="section-10">
+            <img src="./images/ppLeft.png" alt="" class="absLeft">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 contact-1">
@@ -44,17 +45,19 @@
                         <p>Fill out the form below and we'll get back to you with answers.</p>
                         <div class="line"></div>
                     </div>
-                    <div class="col-lg-11 contact-2">
+                    <div class="col-xl-10 contact-2">
                         <form class="contact-form">
                             <div class="field-block">
                                 <label class="caption">Name * </label>
-                                <div class="name-block">
-                                    <input type="text">
-                                    <label for="" class="name">First</label>
-                                </div>
-                                <div class="name-block">
-                                    <input type="text">
-                                    <label for="" class="name">Last</label>
+                                <div class="name-block_wrap">
+                                    <div class="name-block">
+                                        <input type="text" id="first-name">
+                                        <label for="first-name" class="name">First</label>
+                                    </div>
+                                    <div class="name-block">
+                                        <input type="text" id="last-name">
+                                        <label for="last-name" class="name">Last</label>
+                                    </div>
                                 </div>
                             </div>
 
@@ -72,11 +75,13 @@
                                 <label class="caption">Message * </label>
                                 <textarea placeholder="Example Text" maxlength="5000"></textarea>
                             </div>
-                            <button class="btn" type="submit">Submit</button>
+                            <div class="btn-block">
+                                <button class="btn btn_inline" type="submit">Submit</button>
+                            </div>
                         </form>
                         <div class="line"></div>
                     </div>
-                    <div class="col-12 contact-3">
+                    <div class="col-12 contact-3 text-c contact-bottom">
                         <h2 class="h2">JOIN THE TEAM </h2>
                         <p>Do you love building things that can
                             change the world? Are you curious and love solving problems?</p>
@@ -84,13 +89,17 @@
                         <p>Check out our current job openings:</p>
                         <p>DEVELOPER COMMUNITY MANAGER</p>
                         <p>PLATFORM ENGINEER</p>
-                        <a href="#" class="btn">Learn More</a>
+                        <div class="btn_block">
+                            <a href="#" class="btn btn_inline">Learn More</a>
+                        </div>
                         <p><strong>Don't see your job?</strong></p>
-                        <p><strong>Get in touch anyway! We're always looking for smart people to join the team. Send a
+                        <p class="last-p">Get in touch anyway! We're always looking for smart people to join the team.
+                            Send a
                                 resume and quick description for what you’re interested in doing to
-                                careers@quorumcontrol.com </strong></p>
-                        <div class="line"></div>
+                                careers@quorumcontrol.com</p>
+
                     </div>
+                    <div class="line"></div>
                 </div>
             </div>
         </section>
@@ -112,19 +121,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 logo-block">
-                    <a href="#" class="logo-footer"><img src="./images/logo-white.png" alt=""></a>
+                    <a href="index.html" class="logo-footer"><img src="./images/logo-white.png" alt=""></a>
                     <span class="by">by Quorum Control</span>
                     <span class="year">© 2019</span>
                 </div>
                 <div class="col-lg-6 ml-auto">
                     <ul class="nav-footer">
                         <li><a href="#">Docs</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="#">Build</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -135,5 +144,5 @@
     <script src="./js/bootstrap.js"></script>
     <script src="./js/owl.carousel.js"></script>
     <script src="./js/script.js"></script>
-
+</body>
 </html>

@@ -22,6 +22,7 @@ h1 {
   font-size: 40px;
   line-height: 55px;
   font-weight: 700;
+  letter-spacing: 1.8px;
   color: $blue;
 
   @include media-breakpoint-down(sm) {
@@ -184,6 +185,9 @@ input {
 }
 
 .btn {
+  &_inline {
+    display: inline-block;
+  }
   outline: none;
   border: none;
   text-align: center;
@@ -211,4 +215,8 @@ input {
     box-shadow: none;
     color: $green;
   }
+}
+
+.text-c {
+  text-align: center;
 }

@@ -31,7 +31,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('src/js'))
 });
 gulp.task("sass", function() {
-    return gulp.src("src/scss/allStyle.scss")
+    return gulp.src("src/scss/**/*.scss")
         .pipe(plumber({ errorHandler: notify.onError("Error: <%= error.message %>") }))
         .pipe(sass().on("error", sass.logError))
         .pipe(plumber.stop())
@@ -83,17 +83,17 @@ gulp.task("clean", function() {
 var callback = function() {};
 gulp.task("build", function(callback) {
     runSequence("clean", [
-    "build:css", 
-    "build:fonts", 
+    "build:css",
+    "build:fonts",
     "build:js",
-    "build:html", 
+    "build:html",
     "build:img",
     "build:icons"
 ], callback);
 });
 // watch
 gulp.task("watch", function() {
-    gulp.watch("src/scss/*.scss", ["sass"]);
+    gulp.watch("src/scss/**/*.scss", ["sass"]);
     gulp.watch("src/*.html").on("change", browserSync.reload);
     gulp.watch("src/js/*.js").on("change", browserSync.reload);
 });

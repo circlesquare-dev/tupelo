@@ -1,0 +1,47 @@
+.careers {
+  padding-top: 160px;
+  @media(max-width: 767px) {
+    padding-top: 30px;
+  }
+  h1 {
+    margin-bottom: 70px;
+    @media(max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+  .h2 {
+    margin-bottom: 48px;
+  }
+  ul {
+    margin-bottom: 30px;
+  }
+}
+
+.career {
+  &_parts {
+    margin-top: 20px;
+    margin-bottom: 160px;
+  }
+  &_half-part {
+    padding: 0 16px;
+    flex: 0 0 47%;
+    max-width: 47%;
+    @media(max-width: 767px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  &_btn {
+    margin-top: 30px;
+    @media(max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.green {
+  &_btn-wrap {
+    margin: 40px 0;
+    text-align: center;
+  }
+}
