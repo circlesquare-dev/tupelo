@@ -9753,16 +9753,19 @@ input {
         line-height: 27px;
         margin: 0; }
 
+.section-10 .absLeft {
+  left: -1%;
+  top: 310px; }
+
 .section-10 .line {
   margin: 0; }
 
 .section-10 .contact-1 {
   text-align: center;
-  padding-top: 178px;
-  margin-bottom: 58px; }
+  padding-top: 160px;
+  margin-bottom: 20px; }
   .section-10 .contact-1 .h2 {
-    margin-bottom: 77px;
-    letter-spacing: 3.5px; }
+    margin-bottom: 70px; }
   .section-10 .contact-1 .capitalize {
     text-transform: capitalize; }
   .section-10 .contact-1 p {
@@ -9770,43 +9773,76 @@ input {
     font-size: 17px;
     line-height: 30px;
     font-weight: 400;
-    line-height: 1;
-    letter-spacing: 0.5px; }
+    line-height: 1; }
   .section-10 .contact-1 .line {
-    margin-top: 60px; }
+    margin-top: 56px; }
 
-.section-10 .contact-2 .contact-form .field-block .caption {
-  margin-bottom: 9px;
-  color: #212E78;
-  font-size: 17px;
-  line-height: 159%;
-  font-weight: 500;
-  letter-spacing: -0.3px; }
+.section-10 .contact-2 .contact-form .field-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .section-10 .contact-2 .contact-form .field-block .caption {
+    width: 100%;
+    margin-bottom: 9px;
+    color: #212E78;
+    font-size: 17px;
+    line-height: 159%;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    margin-top: 31px; }
+  .section-10 .contact-2 .contact-form .field-block .name {
+    color: #212e78;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 700;
+    letter-spacing: -0.9px; }
+  .section-10 .contact-2 .contact-form .field-block input,
+  .section-10 .contact-2 .contact-form .field-block textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    display: block;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    font-weight: 700; }
+  .section-10 .contact-2 .contact-form .field-block input {
+    height: 45px; }
+  .section-10 .contact-2 .contact-form .field-block textarea {
+    min-height: 101px; }
+  .section-10 .contact-2 .contact-form .field-block .name-block {
+    width: 49%; }
 
-.section-10 .contact-2 .contact-form .field-block .name {
-  color: #212e78;
-  font-size: 13px;
-  line-height: 23px;
-  font-weight: 700; }
+.section-10 .contact-2 .contact-form .btn {
+  margin: 34px auto 44px;
+  padding: 4px 15px; }
 
-.section-10 .contact-2 .contact-form .field-block input,
-.section-10 .contact-2 .contact-form .field-block textarea {
-  width: 100%;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  background-color: #fafafa;
-  display: block;
-  padding: 8px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
-  vertical-align: middle; }
-
-.section-10 .contact-2 .contact-form .field-block input {
-  height: 45px; }
-
-.section-10 .contact-2 .contact-form .field-block textarea {
-  min-height: 101px; }
+.section-10 .contact-3 {
+  text-align: center;
+  padding-top: 52px;
+  margin-bottom: 20px; }
+  .section-10 .contact-3 .line {
+    margin-top: 53px; }
+  .section-10 .contact-3 .h2 {
+    margin-bottom: 50px; }
+  .section-10 .contact-3 p {
+    width: 100%;
+    margin-bottom: 33px;
+    color: #1f286b;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400; }
+  .section-10 .contact-3 .btn {
+    margin: 57px auto 49px;
+    padding: 4px 0; }
 
 .section-12 {
   text-align: center; }
@@ -9825,6 +9861,8 @@ input {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .add-footer-section .logo.pt-27 {
+      padding-top: 27px; }
     @media (max-width: 991.98px) {
       .add-footer-section .logo {
         padding-top: 51px; } }

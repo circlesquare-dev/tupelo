@@ -1609,6 +1609,10 @@
 }
 
 .section-10 {
+    .absLeft {
+        left: -1%;
+        top: 310px;
+    }
 
     .line {
         margin: 0;
@@ -1617,12 +1621,12 @@
     .contact-1 {
 
         text-align: center;
-        padding-top: 178px;
-        margin-bottom: 58px;
+        padding-top: 160px;
+        margin-bottom: 20px;
 
         .h2 {
-            margin-bottom: 77px;
-            letter-spacing: 3.5px;
+            margin-bottom: 70px;
+            // letter-spacing: 3.5px;
         }
 
         .capitalize {
@@ -1635,24 +1639,30 @@
             line-height: 30px;
             font-weight: 400;
             line-height: 1;
-            letter-spacing: 0.5px;
+            // letter-spacing: 0.5px;
         }
 
         .line {
-            margin-top: 60px;
+            margin-top: 56px;
         }
     }
 
     .contact-2 {
         .contact-form {
             .field-block {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
                 .caption {
+                    width: 100%;
                     margin-bottom: 9px;
                     color: $blue;
                     font-size: 17px;
                     line-height: 159%;
                     font-weight: 500;
                     letter-spacing: -0.3px;
+                    margin-top: 31px;
                 }
 
                 .name {
@@ -1660,6 +1670,7 @@
                     font-size: 13px;
                     line-height: 23px;
                     font-weight: 700;
+                    letter-spacing: -0.9px;
                 }
 
                 input,
@@ -1674,6 +1685,7 @@
                     line-height: 1.42857143;
                     color: #333333;
                     vertical-align: middle;
+                    font-weight: 700;
                 }
 
                 input {
@@ -1685,12 +1697,49 @@
 
                 }
 
-                .name-block {}
+                .name-block {
+                    width: 49%;
+                    // margin-bottom: 10px;
+                }
+            }
+
+            .btn {
+                margin: 34px auto 44px;
+                padding: 4px 15px;
             }
         }
     }
 
-    .contact-3 {}
+    .contact-3 {
+        text-align: center;
+        padding-top: 52px;
+        margin-bottom: 20px;
+
+        .line {
+            margin-top: 53px;
+        }
+
+      
+
+        .h2 {
+            margin-bottom: 50px;
+        }
+
+        p {
+            width: 100%;
+            margin-bottom: 33px;
+            color: #1f286b;
+            font-size: 17px;
+            line-height: 27px;
+            font-weight: 400;
+           
+        }
+
+        .btn {
+            margin: 57px auto 49px;
+            padding: 4px 0;
+        }
+    }
 
 }
 
@@ -1707,6 +1756,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        &.pt-27 {
+            padding-top: 27px;
+        }
 
         @include media-breakpoint-down(md) {
             padding-top: 51px;
